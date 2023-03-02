@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Occupy Business</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="task3.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!--Section 1(NavBar)-->
+    <nav class="navbar navbar-expand-lg fixed-top py-0">
+        <div class="container-fluid main">
+            <a class="navbar-brand" href="#">Occupy</a>
+            <button class="navbar-toggler shadow-sm" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <!-- <span class="navbar-toggler-icon"></span> -->
+
+                <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                    color="greenyellow" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16">
+                    </path>
+                </svg>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0 ">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#" style="color: greenyellow;">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Pages
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Portfolio</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Portfolio Details</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Elements</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Blogs
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Blog</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Blog Details</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+                <ul style="display: flex; list-style-type:none;" class="me-5 mb-0 nav-social-icons">
+                    <li><a href="#" style="color: rgb(221, 220, 220);"><i
+                                class="fa fa-facebook text-decoration-none "></i></a>
+                    </li>
+                    <li><a href="#" style="color: rgb(221, 220, 220);"><i
+                                class="fa fa-twitter text-decoration-none "></i></a>
+                    </li>
+                    <li><a href="#" style="color:  rgb(221, 220, 220);"><i
+                                class="fa fa-google text-decoration-none "></i></a>
+                    </li>
+                    <li><a href="#" style="color:  rgb(221, 220, 220);"><i
+                                class="fa fa-globe text-decoration-none "></i></a>
+                    </li>
+                    <li><a href="#" style="color:  rgb(221, 220, 220);"><i
+                                class="fa fa-behance text-decoration-none "></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--Section 2(Background Image)-->
+    <div class="row m-0" style="margin-top: 85px !important;">
+        <img class="col-12 p-0" src="main-one.webp" alt="">
+    </div>
+    <!--Section 3(image-text)-->
+    <div class="container-fluid ">
+        <div class="row p-0">
+            <div class="col-12 col-md-6 p-0 left-img-main">
+                <img src="mission-1.jpg.webp" class="img-fluid" alt="">
+            </div>
+            <div class="col-12 col-md-6 d-flex align-items-center p-0">
+                <!--Carousel-->
+                <div id="carouselExample" class="carousel slide mx-auto">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <!--Gutters-->
+                            <div class="container py-4 text-center">
+                                <div class="col gy-5">
+                                    <div class="col-8 mx-auto my-3">
+                                        <div class="p-3">
+                                            <h4 class="" style="font-weight: 700;">ROAD TO SUCCESS</h4>
+                                            <P class="font" style="color: rgb(94, 93, 93);">Lorem ipsum dolor sit amet
+                                                consectetur
+                                                adipisicing elit. Laborum nihil id
+                                                magni, et accusamus dicta odit quo velit asperiores esse.</P>
+                                        </div>
+                                    </div>
+                                    <div class="col-8 mx-auto mb-5">
+                                        <div class="p-3">
+                                            <h4 style="font-weight: 700;">ABOUT OUR MISSION</h4>
+                                            <P class="font" style="color: rgb(94, 93, 93);">Lorem ipsum dolor sit amet
+                                                consectetur
+                                                adipisicing elit. Possimus optio
+                                                quos doloribus odio, impedit eaque nesciunt neque beatae consequuntur a.
+                                            </P>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="container py-4 text-center">
+                                <div class="col gy-5">
+                                    <div class="col-8 mx-auto my-3">
+                                        <div class="p-3">
+                                            <h4 style="font-weight: 700;">ROAD TO SUCCESS</h4>
+                                            <P class="font" style="color: rgb(94, 93, 93);">Lorem ipsum dolor sit amet
+                                                consectetur
+                                                adipisicing elit. Laborum nihil id
+                                                magni, et accusamus dicta odit quo velit asperiores esse.</P>
+                                        </div>
+                                    </div>
+                                    <div class="col-8 mx-auto mb-5">
+                                        <div class="p-3">
+                                            <h4 style="font-weight: 700;">ABOUT OUR MISSION</h4>
+                                            <P class="font" style="color: rgb(94, 93, 93);">Lorem ipsum dolor sit amet
+                                                consectetur
+                                                adipisicing elit. Possimus optio
+                                                quos doloribus odio, impedit eaque nesciunt neque beatae consequuntur a.
+                                            </P>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="container py-4 text-center">
+                                <div class="col gy-5">
+                                    <div class="col-8 mx-auto my-3">
+                                        <div class="p-3">
+                                            <h4 style="font-weight: 700;">ROAD TO SUCCESS</h4>
+                                            <P class="font" style="color: rgb(94, 93, 93);">Lorem ipsum dolor sit amet
+                                                consectetur
+                                                adipisicing elit. Laborum nihil id
+                                                magni, et accusamus dicta odit quo velit asperiores esse.</P>
+                                        </div>
+                                    </div>
+                                    <div class="col-8 mx-auto mb-5">
+                                        <div class="p-3">
+                                            <h4 style="font-weight: 700;">ABOUT OUR MISSION</h4>
+                                            <P class="font" style="color: rgb(94, 93, 93);">Lorem ipsum dolor sit amet
+                                                consectetur
+                                                adipisicing elit. Possimus optio
+                                                quos doloribus odio, impedit eaque nesciunt neque beatae consequuntur a.
+                                            </P>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev carousel-control" type="button"
+                        data-bs-target="#carouselExample" data-bs-slide="prev">
+                        <span class="control-button"><img style="height: 20px; width: 20px;"
+                                src="left-arrow.png"></span>
+                    </button>
+                    <button class="carousel-control-next carousel-control" type="button"
+                        data-bs-target="#carouselExample" data-bs-slide="next">
+                        <span class="control-button"><img style="height: 20px; width: 20px;"
+                                src="right-arrow.png"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Section 4( Image + Text)-->
+    <div class="container-fluid">
+        <div class="row success p-0">
+            <div class="col-12 col-sm-6 col-md-6 success1 h-100">
+                <h3 style="font-weight: 700;">Road to Success</h3>
+                <p class="font" style="color: rgb(94, 93, 93);">Lorem ipsum dolor sit amet, consectetur adipisicing
+                    elit, <br>sed
+                    eiusmod tempor incididunt labore dolore
+                    magna<br> aliqua enim minim veniam quis nostrud.</p>
+            </div>
+            <div class="col-12 col-sm-6 col-md-6 p-0 "><img class="img-fluid h-100" src="success-1.jpg.webp" alt=""></div>
+        </div>
+    </div>
+    <!--Section 5( Image + Text)-->
+    <div class="container-fluid">
+        <div class="row success p-0">
+            <div class="col-12 col-sm-6 col-md-6 p-0"><img class="img-fluid h-100" src="success-2.jpg" alt=""></div>
+            <div class="col-12 col-sm-6 col-md-6 success1 h-100">
+                <h3 style="font-weight: 700;">Road to Success</h3>
+                <p class="font" style="color: rgb(94, 93, 93);">Lorem ipsum dolor sit amet, consectetur adipisicing<br>
+                    elit, sed
+                    eiusmod tempor incididunt labore dolore<br>
+                    magna aliqua enim minim veniam quis nostrud.</p>
+            </div>
+        </div>
+    </div>
+    <!--Section 6(Image Containers)-->
+    <div class="container-fluid mt-sm-5 mt-md-0 mt-lg-0">
+        <div class="row">
+            <div class="col-12  col-sm-6 col-md-4 p-0">
+                <div class="card-effect position-relative ">
+                    <img class="img-fluid h-100 w-100 pro-image" src="pro-one.jpg" alt="">
+                    <div class="position-absolute stack-btn-main text-center">
+                        <div class="card_content">
+                            <h4 class="inner-card-heading">Exotic
+                                <br>Mangrove
+                            </h4>
+                            <span class="inner-card-span"> Lifestyl/People </span>
+                        </div>
+                        <button class="btn btn-success stack-btn mx-auto">Veiw More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 p-0">
+                <div class="card-effect position-relative">
+                    <img class="img-fluid h-100 w-100 pro-image" src="pro-two.jpg" alt="">
+                    <div class="position-absolute stack-btn-main text-center">
+                        <div class="card_content">
+                            <h4 class="inner-card-heading">Exotic
+                                <br>Mangrove
+                            </h4>
+                            <span class="inner-card-span"> Lifestyle/People </span>
+                        </div>
+                        <button class="btn btn-success stack-btn mx-auto">Veiw More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 p-0">
+                <div class="card-effect position-relative">
+                    <img class="img-fluid h-100 w-100 pro-image" src="pro-three.jpg" alt="">
+                    <div class="position-absolute stack-btn-main text-center">
+                        <div class="card_content">
+                            <h4 class="inner-card-heading">Exotic
+                                <br Mangrove</h4>
+                                <span class="inner-card-span"> Lifestyle/People </span>
+                        </div>
+                        <button class="btn btn-success stack-btn mx-auto">Veiw More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 p-0">
+                <div class="card-effect position-relative">
+                    <img class="img-fluid h-100 w-100 pro-image" src="pro-four.jpg" alt="">
+                    <div class="position-absolute stack-btn-main text-center">
+                        <div class="card_content">
+                            <h4 class="inner-card-heading">Exotic
+                                <br> Mangrove
+                            </h4>
+                            <span class="inner-card-span"> Lifestyle/People </span>
+                        </div>
+                        <button class="btn btn-success stack-btn mx-auto">Veiw More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 p-0">
+                <div class="card-effect position-relative">
+                    <img class="img-fluid h-100 w-100 pro-image" src="pro-five.jpg" alt="">
+                    <div class="position-absolute stack-btn-main text-center">
+                        <div class="card_content">
+                            <h4 class="inner-card-heading">Exotic
+                                <br> Mangrove
+                            </h4>
+                            <span class="inner-card-span"> Lifestyle/People </span>
+                        </div>
+                        <button class="btn btn-success stack-btn mx-auto">Veiw More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 p-0">
+                <div class="card-effect position-relative">
+                    <img class="img-fluid h-100 w-100 pro-image" src="pro-six.jpg" alt="">
+                    <div class="position-absolute stack-btn-main text-center">
+                        <div class="card_content">
+                            <h4 class="inner-card-heading">Exotic
+                                <br> Mangrove
+                            </h4>
+                            <span class="inner-card-span"> Lifestyle/People </span>
+                        </div>
+                        <button class="btn btn-success stack-btn mx-auto">Veiw More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Section 7(people)-->
+    <div class="container-fluid team ">
+        <div class="row">
+            <div class="col-12 col-sm-6 col-md-3 p-0 card-col position-relative overflow-hidden"><img class="peo-img h-100 w-100"
+                    src="peo-one.webp" alt="">
+                <div class="hover_text">
+                    <a href="#">
+                        <h4>EVA YATES</h4>
+                    </a>
+                    <p class="font">Managing Director(Sales)</p>
+                    <ul class="list">
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-facebook  "></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-twitter  "></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-google  "></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-globe  "></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-behance  "></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3 p-0 card-col position-relative overflow-hidden"><img class="peo-img h-100 w-100"
+                    src="peo-two.webp" alt="">
+                <div class="hover_text">
+                    <a href="#">
+                        <h4>ETHAN HOPKINS</h4>
+                    </a>
+                    <p class="font">Managing Director(Sales)</p>
+                    <ul class="list">
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-facebook  "></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-twitter  "></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-google  "></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-globe  "></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-behance  "></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3 p-0 card-col position-relative overflow-hidden"><img class="peo-img h-100 w-100"
+                    src="peo-three.jpg" alt="">
+                <div class="hover_text">
+                    <a href="#">
+                        <h4>MAUD GRAHAM</h4>
+                    </a>
+                    <p class="font">Managing Director(Sales)</p>
+                    <ul class="list">
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-facebook  "></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-twitter  "></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-google  "></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-globe  "></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-behance  "></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3 p-0 card-col position-relative overflow-hidden"><img class="peo-img h-100 w-100"
+                    src="peo-four.webp" alt="">
+                <div class="hover_text">
+                    <a href="#">
+                        <h4>GLENN WASTON</h4>
+                    </a>
+                    <p class="font">Managing Director(Sales)</p>
+                    <div class="card-cont">
+                        <ul class="list">
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-facebook  "></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-twitter  "></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-google  "></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-globe  "></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-behance  "></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Section 8(div)-->
+    <div class="centeral-div">
+        <h2 class="central-heading">Get to Know Project Estimate?</h2>
+        <p class="central-para">There is a moment in the life of any aspiring astronomer that it is time to buy that
+            first<br> telescope. It’s exciting to think about setting up your own viewing station whether that is on the
+            deck</p>
+        <button type="button" href="#" class="centeral-button">Get Free Estimate</button>
+    </div>
+    <!--Section 9(image with the text divs)-->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-sm-6 col-md-3 p-0"><img class="img-fluid h-100 w-100" src="info-one.webp" alt=""></div>
+            <div class="col-12 col-md-3 p-5 info-text">
+                <p class="information">25 june, 2018 | By Mark Wiens</p>
+                <h5 class="">Addiction When Gambling Becomes A Problem</h5>
+                <p class="information"> Computers have become ubiquitous in almost every facet of our lives. At work, desk
+                    jockeys spend
+                    hours in front of their desktops.</p>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3 p-0"><img class="img-fluid h-100 w-100" src="info-two.webp" alt=""></div>
+            <div class="col-12 col-md-3 p-5 info-text">
+                <p class="information">25 june, 2018 | By Mark Wiens</p>
+                <h5 class="">Addiction When Gambling Becomes A Problem</h5>
+                <p class="information"> Computers have become ubiquitous in almost every facet of our lives. At work, desk
+                    jockeys spend
+                    hours in front of their desktops.</p>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3 p-5 info-text">
+                <p class="information">25 june, 2018 | By Mark Wiens</p>
+                <h5 class="">Addiction When Gambling Becomes A Problem</h5>
+                <p class="information"> Computers have become ubiquitous in almost every facet of our lives. At work, desk
+                    jockeys spend
+                    hours in front of their desktops.</p>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3 p-0"><img class="img-fluid h-100 w-100" src="info-three.webp" alt=""></div>
+            <div class="col-12 col-md-3 p-5 info-text">
+                <p class="information">25 june, 2018 | By Mark Wiens</p>
+                <h5 class="">Addiction When Gambling Becomes A Problem</h5>
+                <p class="information"> Computers have become ubiquitous in almost every facet of our lives. At work, desk
+                    jockeys spend
+                    hours in front of their desktops.</p>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3 p-0"><img class="img-fluid h-100 w-100" src="info-four.webp" alt=""></div>
+        </div>
+    </div>
+    <!---Section 10(Information + link + Forms)-->
+    <div class="container-fluid end-form">
+        <div class="row p-sm-5 pt-5">
+            <div class="col-12 col-md-3 ">
+                <h3 class="foo-text ">About Biznance</h3>
+                <p class="info-link">The world has become so fast paced that people don't want to stand by reading a
+                    page of information,
+                    they would much rather look at a presentation and understand the message. It has come to a point
+                    where images and videos are</p>
+            </div>
+            <div class="col-12 col-md-3 ">
+                <h3 class="foo-text">Navigation Links</h3>
+                <ul class="col-list ps-0">
+                    <li><a href="#" class="footer-info-link">Home</a></li>
+                    <li><a href="#" class="footer-info-link">Feature</a></li>
+                    <li><a href="#" class="footer-info-link">Services</a></a></li>
+                    <li><a href="#" class="footer-info-link">Portfolio</a></li>
+                    <li><a href="#" class="footer-info-link">Team</a></li>
+                    <li><a href="#" class="footer-info-link">Pricing</a></li>
+                    <li><a href="#" class="footer-info-link">Blog</a></li>
+                    <li><a href="#" class="footer-info-link">Contact</a></li>
+                </ul>
+            </div>
+            <div class="col-12 col-md-3 ">
+                <h3 class="foo-text">Newsletter</h3>
+                <p class="info-link">For business professionals caught between high OEM price and mediocre print and
+                    graphic output,</p>
+                <div class="d-flex">
+                    <input type="text" class="footer-input" placeholder="Email Address" id="validationTooltip01" value="sjhs" required>
+                    <button class="py-2 px-3 submit-btn" type="submit">
+                        <i
+                            class="fa fa-sharp fa-solid fa-paper-plane"></i></button>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 ">
+                <h3 class="foo-text">Newsletter</h3>
+                <div class="foo-container">
+                    <div class="img"><img src="foo-one.webp" alt=""></div>
+                    <div class="img"><img src="foo-two.webp" alt=""></div>
+                    <div class="img"><img src="foo-three.webp" alt=""></div>
+                    <div class="img"><img src="foo-four.webp" alt=""></div>
+                    <div class="img"><img src="foo-five.webp" alt=""></div>
+                    <div class="img"><img src="foo-six.webp" alt=""></div>
+                    <div class="img"><img src="foo-seven.webp" alt=""></div>
+                    <div class="img"><img src="foo-eight.webp" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Section 11(Footer)-->
+    <div class="footer px-5 ">
+        <div class="row align-items-center p-0 m-0 ">
+            <div class="col-12 col-sm-6 col-md-6 footer-text m-0">Copyright &copy;2023 All rights reserved | This template is made with by <a
+                    href="#" style="color: greenyellow;">Colorlib</a></div>
+            <div class="col-12 col-sm-6 col-md-6">
+                <ul style="display: flex; list-style-type:none;" class="p-0 m-0 nav-social-icons float-end">
+                    <li><a href="#" style="color: black;"><i
+                                class="fa fa-facebook text-decoration-none "></i></a>
+                    </li>
+                    <li><a href="#" style="color: black;"><i
+                                class="fa fa-twitter text-decoration-none "></i></a>
+                    </li>
+                    <li><a href="#" style="color:  black;"><i
+                                class="fa fa-thin fa-globe text-decoration-none "></i></a>
+                    </li>
+                    <li><a href="#" style="color:  black;"><i
+                                class="fa fa-thin fa-behance text-decoration-none "></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

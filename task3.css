@@ -1,0 +1,393 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@200;500&family=Oxygen&family=Paytone+One&family=Quicksand&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+    /* border: 1px solid; */
+}
+
+.navbar-brand {
+    font-weight: 800;
+    height: 65px;
+    font-size: xx-large;
+    padding-left: 30px;
+}
+
+.main {
+    background-color: white;
+    border-bottom: 2px solid #a7cb00;
+    padding: 10px;
+}
+
+.nav-link {
+    color: black;
+    padding-right: 10px;
+}
+
+.nav-link:hover {
+    color: #a7cb00;
+}
+
+.nav-social-icons li a {
+    margin: 0 10px;
+}
+
+.nav-social-icons li a:hover {
+    color: #a7cb00 !important;
+}
+
+.control-button:hover {
+    color: gray;
+}
+/* @media  screen and(min-width:576px) {
+    .carousel-control-prev:hover {
+        top: 45px;
+    }
+} */
+.font {
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oxygen', sans-serif;
+    font-family: 'Paytone One', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+}
+
+.carousel-control {
+    width: 20px;
+    height: 20px;
+}
+
+.carousel-control-prev {
+    top: 0%;
+    left: 10%;
+}
+
+.carousel-control-next {
+    left: 12%;
+    top: 90%;
+}
+
+.custom-left-img {
+    height: 300px;
+    object-fit: cover;
+}
+
+.success {
+    height: 500px;
+}
+
+/* @media screen and (max-width:768px) {
+    .custom-left-img {
+        object-fit: fill !important;
+        width: 100%;
+    } */
+
+.left-img-main img {
+    min-width: 300px;
+    object-fit: fill;
+    min-height: 200px;
+}
+
+.success1 {
+    text-align: center;
+    padding-top: 170px;
+}
+
+.card-effect {
+    height: 270px;
+    overflow: hidden;
+}
+
+.card-effect:hover {
+    transition: 300ms;
+   
+    height: 270px;
+}
+.pro-image:hover{
+    opacity: .6;
+    
+}
+.card_content {
+    transition: 500ms;
+}
+
+.card-effect:hover .card_content {
+    padding-bottom: 120px
+}
+
+.card-effect:hover .stack-btn {
+    transition: 500ms;
+    bottom: 30%;
+}
+
+.stack-btn {
+    background-color: #a7cb00;
+    color: white;
+}
+
+.stack-btn-main {
+    left: 0;
+    right: 0;
+    bottom: 10px;
+}
+
+.stack-btn {
+    background-color: #a7cb00;
+    padding: 15px 40px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -100%;
+    border-color: #a7cb00;
+}
+
+.inner-card-heading {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 700;
+    color: black
+}
+
+.inner-card-span {
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 400;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oxygen', sans-serif;
+    font-family: 'Paytone One', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+}
+
+.stack-btn:hover {
+    color: #a7cb00;
+    background-color: white;
+    border-color: #a7cb00;
+}
+
+.peo-img {
+    height: 500px;
+}
+
+.card-col::before {
+    content: "";
+    background: url("filter.webp") no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    opacity: 0.7;
+}
+
+.card-col:hover .hover_text {
+    bottom: 10px;
+}
+
+.team .hover_text {
+    position: absolute;
+    left: 0px;
+    bottom: -40px;
+    width: 100%;
+    text-align: center;
+    transition: 0.9s;
+}
+
+.hover_text>a {
+    text-decoration: none;
+    color: black;
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.list li a {
+    color: black;
+    margin: 0 5px;
+    width: 16px;
+}
+
+.list li {
+    background-color: rgb(220, 219, 219);
+    width: 26px;
+}
+
+.list li:hover,
+.list li:hover a {
+    color: white;
+    background-color: #a7cb00;
+}
+
+.team .hover_text .list {
+    padding-left: 0%;
+}
+
+.team .hover_text .list li {
+    display: inline-block;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+.team .hover_text .list li a {
+    display: inline-block;
+    text-align: center;
+}
+
+.centeral-div {
+    height: 550px;
+    background-color: #a7cb00;
+    text-align: center;
+    color: white;
+    padding-top: 12%;
+}
+
+.centeral-button {
+    padding: 20px 30px;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 3px;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oxygen', sans-serif;
+    font-family: 'Paytone One', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.central-heading {
+    font-weight: 700;
+    font-size: xx-large;
+}
+
+.central-para {
+    font-size: larger;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oxygen', sans-serif;
+    font-family: 'Paytone One', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.information {
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oxygen', sans-serif;
+    font-family: 'Paytone One', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.info-link {
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oxygen', sans-serif;
+    font-family: 'Paytone One', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.end-form {
+    height: 100%;
+    background-color: rgb(245, 247, 249);
+
+}
+
+@media screen and (min-width:576px) {
+    .end-form {
+        padding: 60px;
+    }
+}
+
+.col-list {
+    list-style-type: none;
+    column-count: 2;
+}
+
+.info-link {
+    color: gray;
+    text-decoration: none;
+}
+
+.footer-info-link {
+    color: gray;
+    text-decoration: none;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oxygen', sans-serif;
+    font-family: 'Paytone One', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.footer-info-link:hover {
+    color: #a7cb00;
+}
+
+.foo-container {
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: auto auto auto auto;
+}
+
+.foo-text {
+    font-weight: bold;
+}
+
+.submit-btn {
+    transform: translateX(-5px);
+    border-radius: 0;
+    background-color: #a7cb00;
+
+}
+
+.submit-btn:focus {
+    outline: 2px solid rgb(41, 151, 229) !important;
+}
+
+.submit-btn:hover i {
+    color: white;
+}
+
+.footer-input {
+    border: 1px solid gray;
+    outline: none;
+    background-color: white;
+    padding-left: 10px;
+}
+
+.footer-input::placeholder {
+    color: rgb(178, 175, 175);
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oxygen', sans-serif;
+    font-family: 'Paytone One', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
+.footer-text{
+    color: rgb(108, 107, 107);
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oxygen', sans-serif;
+    font-family: 'Paytone One', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
+.footer-text > a{
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oxygen', sans-serif;
+    font-family: 'Paytone One', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.footer {
+    /* /* text-align: center; */
+    height: 100px;
+   padding:40px;
+    background-color: rgb(245, 247, 249);
+    border-top: 1px solid rgb(223, 224, 225);
+    
+}
